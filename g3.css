@@ -4,9 +4,45 @@ body{
     margin: 0;
     font-family: "Work Sans", sans-serif;
 }
+/* shared styles  */
+.bg-light{
+background-color: rgba(255, 144, 14, 0.10);
+}
+.display-flex {
+    display: flex;
+}
+.nav-links{
+   text-decoration: none;
+}
+.text-gray{
+    color:#424242;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+}
+.band-name{
+   font-weight: 700;
+   font-size: 3rem;
+}
+.navbar, .banner {
+    max-width: 1120px;
+    margin: 0 auto;
+}
 
-  /* .work-sans-fonts{ */
-  font-optical-sizing: auto;
-  font-weight: 400px;
-  font-style: normal;
+/* banner related style starts here  */
+
+.banner-content{
+max-width: 820px;
+margin: 0 auto;
+text-align: center;
+} 
+.banner-title{
+    font-size: 4rem;
+    font
 }
